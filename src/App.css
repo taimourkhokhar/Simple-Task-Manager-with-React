@@ -1,0 +1,67 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(247, 245, 243);
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section2{
+  display: flex;
+  gap: 10px;
+}
+#green{
+  color: green;
+  text-align: center;
+}
+input{
+  width: 250px;
+  height: 30px;
+}
+button{
+  width: 80px;
+  height: 30px;
+  color: white;
+  background-color: green;
+  border: none;
+}
+input::placeholder{
+  padding-left: 10px;
+}
+#task1{
+  padding-left: 10px;
+  font-size: 25px;
+  color: firebrick;
+}
+#task2{
+  padding-left: 10px;
+  font-size: 15px;
+  color: firebrick;
+}
+li{
+  list-style: none;
+}
+
+    .taskCard{
+     margin-bottom: 20px;
+     border-bottom: 1px solid #ccc; 
+    }
+    .deleter{
+        width: 80px;
+  height: 30px;
+  color: white;
+  background-color: red;
+  border: none;
+    }
